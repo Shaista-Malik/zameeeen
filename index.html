@@ -4,181 +4,1015 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zameen.com</title>
+    <title>Youtube cards And navbar</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
 
-    <div class="site-wrapper">
-        <!-- header and navbar -->
-        <div class="header"></div>
-                                  <!-- first navbar -->
-        <nav class="first-navbar d-flex align-items-center">
 
-            <!-- first navbar and left control btns -->
 
-            <ul class="left-ctrl-btns d-flex align-items-center">
 
-                <li style="margin-left: 35px;">
-                    <a href="./index.html">
+    <div class="site_wrapper">
+        <header class="header">
+
+
+            <nav class="main_navbar">
+
+
+                <ul class="logo-container d_flex">
+
+                               
+                    <li>  
+                        <a class="menu-edit">     
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-house-icon lucide-house">
-                            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-                            <path
-                                d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            class="lucide lucide-menu-icon lucide-menu">
+                            <path d="M4 12h16" />
+                            <path d="M4 18h16" />
+                            <path d="M4 6h16" />
                         </svg>
-                    </a>
-                </li>
+                        </a> 
+                    </li>
+                    <li class="logo">
 
-                        <li>
-                            <a href="">Properties</a>
-                        </li>
+                        <img src="./assets/img/youtube logo.png" alt="">
 
-                        <li>
-                            <a href="">Plot finder</a>
-                        </li>
-                        <li> 
-                            <a href="">Area guides</a></li>
-                        <li>
-                            <a href="">Blogs</a></li>
-                        <li>
-                            <a href="">Maps</a></li>
-                        <li>
-                            <a href="">Tools</a></li>
-                        <li>
-                            <a href="">More</a></li>
+                    </li>
 
-            </ul>
-
-            <!-- first navbar and right control btns -->
+                </ul>
 
 
-            <ul class="right-ctrl-btns d-flex align-items-center">
 
-                <li class="d-flex align-items-center" style="margin-left: 350px;">
-                    <input type="text" placeholder="Property ID" class="search-box">
-                    <button class="search-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
-                    </button>
-                </li>
+                <ul class="search_wrapper">
 
-                <li class="Add-property" >
-                    <a href="" class="d-flex align-items-center ">
+                    <li class="d_flex  align_items_centre">
+
+
+                        <input type="text" class="search_box" placeholder="Search">
+
+                        <button class="search_btn">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-search-icon lucide-search">
+                                <path d="m21 21-4.34-4.34" />
+                                <circle cx="11" cy="11" r="8" />
+                            </svg>
+                        </button>
+                    </li>
+                    <!-- 
+            <li class="mic_edit" style="margin-left: none;">
+            <button class="mic">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-icon lucide-mic"><path d="M12 19v3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><rect x="9" y="2" width="6" height="13" rx="3"/></svg>
+            
+
+            </button> -->
+
+
+
+                    <li>
+
+                        <button class="mic_edit">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-mic-icon lucide-mic">
+                                <path d="M12 19v3" />
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                                <rect x="9" y="2" width="6" height="13" rx="3" />
+                            </svg>
+
+                        </button>
+                    </li>
+                </ul>
+
+                <ul class="right_ctrl_btns">
+
+                  
+                    <li >
+                          <button class="Create_btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
 
-                        <span style="margin-left: 5px; ">Add Property</span>
-                    </a>
-                </li>
+                        <span class="edit">Create</span>
+                        </button>
+                    </li>
 
-                <li class="urdu">
-                    <a href="">urdu</a>
-                </li>
+                    <li>
 
-                <li class="settings">
-                    <a href="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></svg>
-                    </a>
-                </li>
+                        <a class="bell_link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-bell-icon lucide-bell">
+                            <path d="M10.268 21a2 2 0 0 0 3.464 0" />
+                            <path
+                                d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" />
+                        </svg>
 
-                 <li class="profile">
-                    <a href="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-pen-icon lucide-user-round-pen"><path d="M2 21a8 8 0 0 1 10.821-7.487"/><path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/><circle cx="10" cy="8" r="5"/></svg>
-                    </a>
-                 </li>
+                        </a>
 
-            </ul>
+                        </button>
+
+                    </li>
+
+                    <li class="user_avatar">
+
+                        <img src="./assets/img/avatar.jpg" alt="">
+                    </li>
+
+                </ul>
 
 
-        </nav>
 
 
-                                 <!-- second navbar -->
 
-                <nav class="sec-navbar">
-                   
-                    <ul class="d-flex align-items-center" >
+            </nav>
 
-                        <li style="margin-left: 12px; border-right: none;" >
-                            <a href="" class="logo" >
-                                
-                                 <img src="./assets/img/Zameen.com_2019_Logo.png" alt=""> 
-                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </header>
+        <!-- /.header -->
+
+
+
+
+
+
+
+
+        </header>
+                                    <!-- main -->
+
+                           <!-- sidebar                         cardwrapper          -->
+        <main class="main d_flex">
+
+
+                           <!-- sidebar -->
+            <aside class="sidebar">
+                <nav class="side-navigation">
+
+
+                                       <!-- first ul -->
+                    <ul>
+
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item side-navigation-active" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-house-icon lucide-house">
+                                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                                    <path
+                                        d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Home</span>
+
+                            </a>
+
+
+                        </li>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-play-icon lucide-play">
+                                    <path
+                                        d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Shorts</span>
+
+                            </a>
+
+
+                        </li>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-tv-minimal-play-icon lucide-tv-minimal-play">
+                                    <path
+                                        d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z" />
+                                    <path d="M7 21h10" />
+                                    <rect width="20" height="14" x="2" y="3" rx="2" />
+                                </svg>
+                                <span style="margin-left: 12px;">Subscription</span>
+
+                            </a>
+
+
+                        </li>
+
+
+
+                    </ul>
+
+
+
+                    <!-- second ul -->
+                    <ul style="margin-top: 12px;">
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+                                <span style="padding-left: 0px;  font-weight: bold  ; ">You </span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-right-icon lucide-chevron-right">
+                                    <path d="m9 18 6-6-6-6" />
+                                </svg>
+
+                            </a>
+
+
+                        </li>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-history-icon lucide-history">
+                                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                    <path d="M3 3v5h5" />
+                                    <path d="M12 7v5l4 2" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">History</span>
+
+                            </a>
+
+
+                        </li>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-list-video-icon lucide-list-video">
+                                    <path d="M12 12H3" />
+                                    <path d="M12 18H3" />
+                                    <path d="M16 6H3" />
+                                    <path
+                                        d="M21.033 14.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56v-4.704a.645.645 0 0 1 .968-.56z" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Playlist</span>
+
+                            </a>
+
+
+                        </li>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-clock-icon lucide-clock">
+                                    <path d="M12 6v6l4 2" />
+                                    <circle cx="12" cy="12" r="10" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Watch Later</span>
+
+                            </a>
+
+
+                        </li>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-thumbs-up-icon lucide-thumbs-up">
+                                    <path d="M7 10v12" />
+                                    <path
+                                        d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Like Videos</span>
+
+                            </a>
+
+
+                        </li>
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-arrow-down-to-line-icon lucide-arrow-down-to-line">
+                                    <path d="M12 17V3" />
+                                    <path d="m6 11 6 6 6-6" />
+                                    <path d="M19 21H5" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Downloads</span>
+
+                            </a>
+
+
+                        </li>
+
+                    </ul>
+
+                    <!-- third ul -->
+                    <ul style="margin-top: 12px;">
+
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+                                <span style="margin-left: 0px;  font-weight: bold">Subscription</span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-right-icon lucide-chevron-right">
+                                    <path d="m9 18 6-6-6-6" />
+                                </svg>
+
+                            </a>
+
+
+                        </li>
+
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-brain-icon lucide-brain">
+                                    <path d="M12 18V5" />
+                                    <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4" />
+                                    <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5" />
+                                    <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77" />
+                                    <path d="M18 18a4 4 0 0 0 2-7.464" />
+                                    <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517" />
+                                    <path d="M6 18a4 4 0 0 1-2-7.464" />
+                                    <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">AtoZTechSol</span>
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+                    <!-- 
+..........fourth ul -->
+
+                    <ul style="margin-top: 12px;">
+
+                        <li>
+
+                            <!-- <a class="d_flex align_items_centre  side-nav-item" href="">  -->
+
+                            <span
+                                style="margin-left: 12px; font-weight: bold ; margin: 12px; margin-bottom: 12px;">Explore</span>
+                            <!-- </a> -->
+
+
+                        <li>
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-music-icon lucide-music">
+                                    <path d="M9 18V5l12-2v13" />
+                                    <circle cx="6" cy="18" r="3" />
+                                    <circle cx="18" cy="16" r="3" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Music</span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-gamepad2-icon lucide-gamepad-2">
+                                    <line x1="6" x2="10" y1="11" y2="11" />
+                                    <line x1="8" x2="8" y1="9" y2="13" />
+                                    <line x1="15" x2="15.01" y1="12" y2="12" />
+                                    <line x1="18" x2="18.01" y1="10" y2="10" />
+                                    <path
+                                        d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Gaming</span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-newspaper-icon lucide-newspaper">
+                                    <path d="M15 18h-5" />
+                                    <path d="M18 14h-8" />
+                                    <path
+                                        d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2" />
+                                    <rect width="8" height="4" x="10" y="6" rx="1" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">News</span>
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-trophy-icon lucide-trophy">
+                                    <path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" />
+                                    <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" />
+                                    <path d="M18 9h1.5a1 1 0 0 0 0-5H18" />
+                                    <path d="M4 22h16" />
+                                    <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+                                    <path d="M6 9H4.5a1 1 0 0 1 0-5H6" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Sports</span>
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+
+
+                    <!-- ...........fifth ul -->
+
+
+                    <ul style="margin-top: 12px;">
+
+                        <li>
+
+                            <!-- <a class="d_flex align_items_centre  side-nav-item" href="">  -->
+
+                            <span style="margin-left: 12px; font-weight: bold ; margin: 12px; margin-bottom: 12px;">Made
+                                From Youtube</span>
+                            <!-- </a> -->
+
+
+                        <li>
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-music-icon lucide-music">
+                                    <path d="M9 18V5l12-2v13" />
+                                    <circle cx="6" cy="18" r="3" />
+                                    <circle cx="18" cy="16" r="3" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Youtube Premium</span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-gamepad2-icon lucide-gamepad-2">
+                                    <line x1="6" x2="10" y1="11" y2="11" />
+                                    <line x1="8" x2="8" y1="9" y2="13" />
+                                    <line x1="15" x2="15.01" y1="12" y2="12" />
+                                    <line x1="18" x2="18.01" y1="10" y2="10" />
+                                    <path
+                                        d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Youtube Music</span>
+
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-newspaper-icon lucide-newspaper">
+                                    <path d="M15 18h-5" />
+                                    <path d="M18 14h-8" />
+                                    <path
+                                        d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2" />
+                                    <rect width="8" height="4" x="10" y="6" rx="1" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Youtube Kids</span>
+
+                            </a>
+
+                        </li>
+
+
+
+                    </ul>
+
+
+                    <ul>
+
+
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings">
+                                    <path
+                                        d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Settings</span>
+
                             </a>
                         </li>
-                        <li style="margin-left: 7px; " class="border-right">
-                            <a href="">BUY</a>
+
+
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-flag-icon lucide-flag">
+                                    <path
+                                        d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Report History</span>
+
+                            </a>
                         </li>
 
-                        <li class="border-right">
-                            <a href="">RENT</a>
+
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-file-question-mark-icon lucide-file-question-mark">
+                                    <path d="M12 17h.01" />
+                                    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" />
+                                    <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" />
+                                </svg>
+
+                                <span style="margin-left: 12px;"> Help </span>
+
+                            </a>
                         </li>
 
-                        <li  class="border-right">
-                            <a href="">AGENTS</a>
-                        
-                        </li>
 
-                        <li> <a href="">NEW PROJECTS</a>
+
+                        <li>
+                            <a class="d_flex align_items_centre  side-nav-item" href="">
+
+
+
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-message-square-warning-icon lucide-message-square-warning">
+                                    <path
+                                        d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" />
+                                    <path d="M12 15h.01" />
+                                    <path d="M12 7v4" />
+                                </svg>
+
+                                <span style="margin-left: 12px;">Send Feedback</span>
+
+                            </a>
                         </li>
                     </ul>
 
 
+
+
+
                 </nav>
+                <!-- /.side-navigation -->
 
 
 
 
-                                  <!-- main/hero section -->
-        <div class="main">
-            <div class="hero-section">
-                <img src="./assets/img/zameen img.jpg" alt="">
-
-               
-               <div class="hero">
-                 
-               <div class="hero-btns d-flex  align-items-center">
 
 
-                    <button class="btn1 d-flex align-items-center" >BUY</button>
-                    <button class="btn2 d-flex align-items-center">RENT</button>
-                    <button class="btn3 d-flex align-items-center">PROJECTS</button>
-
-                     
-
-               </div>
 
 
-               <div class="input-btns d-flex align-items-center">
 
-                  <div class="city">
-                    <input type="text" style="height: 50px;">
-                  </div>
+            </aside>
+                                     <!-- youtube cards -->
+            <div class="parent_wrapper">
+                <div class="yt_card1">
 
-                   <div class="location">
-                    <input type="text"  style="height: 50px;">
+                    <div class="yt_images">
+                        <img src="./assets/img/yt1.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile.jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>STFU| AP Dhillon.</h2>
+                            <p>loshy </p>
+                            <p>25M views. 2 months ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+
                 </div>
 
-                <button style="background-color: green; height: 50px; width: 175px;">
-                    Find
-                </button>
+                <div class="yt_card2">
 
-                
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-14 200912.png" alt="">
+                    </div>
 
-                
-             </div>
-               </div>
-                
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (1).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>Pakistan Zindabad ISPR Off</h2>
+                            <p>sahir ali bagga</p>
+                            <p> 2265M views. 6 years ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-               
+
+                <div class="yt_card3">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-14 202450.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (2).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>India vs Pak Highlights</h2>
+                            <p>Cricket HD </p>
+                            <p> 2.5M views. 1 month ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt_card4">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-14 203253.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (3).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>Sher Episode25</h2>
+                            <p>ARY Digital HD </p>
+                            <p> 11M views. 22hpurs ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="yt_card5">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-14 204411.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile.jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>Jannay Is Dil | Hadiqa Kiyani
+                            </h2>
+                            <p>Yousaf Salli </p>
+                            <p> 27M views. 4 Years ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="yt_card6">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-14 232459.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (4).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>Oggy and the Cockroaches
+                            </h2>
+                            <p>Oggy </p>
+                            <p> 38M views. 4 Years ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt_card7">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-16 161917.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (5).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>CID Latest Episode
+                            </h2>
+                            <p>LIV Crime </p>
+                            <p> 2.7 M views. 8 months ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt_card8">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-16 162908.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (6).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>Is Karam ka kru Shukr kese ada
+                            </h2>
+                            <p>Shahzad abdul wahab </p>
+                            <p> 25M views. 2 Years ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt_card9">
+
+                    <div class="yt_images">
+                        <img src="./assets/img/Screenshot 2025-08-16 163339.png" alt="">
+                    </div>
+
+                    <div class="yt_details">
+
+                        <div class="avatar">
+                            <img src="./assets/img/channels4_profile (7).jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h2>Mr.Bean Pizza Bean
+                            </h2>
+                            <p>wildbrain Bhasa Indonesia </p>
+                            <p> 10M views. 3 Years ago</p>
+                        </div>
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-ellipsis-vertical-icon lucide-ellipsis-vertical">
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
 
 
-        <!-- footer  -->
-        <div class="footer"></div>
+
+
+
+
+
+
+
+
+
+        </main>
+        <!-- /.main -->
+
+
+
+
+
+
+
+
+        <footer class="footer"></footer>
+        <!-- /.footer -->
 
     </div>
 </body>
